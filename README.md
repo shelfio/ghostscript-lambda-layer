@@ -9,7 +9,7 @@ Click on Layers and choose "Add a layer", and "Provide a layer version
 ARN" and enter the following ARN.
 
 ```
-arn:aws:lambda:us-east-1:764866452798:layer:ghostscript-lambda-layer:1
+arn:aws:lambda:us-east-1:764866452798:layer:ghostscript:1
 ```
 
 Current version of Ghostscript is `9.20`
