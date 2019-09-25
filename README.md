@@ -1,8 +1,6 @@
 # ghostscript-lambda-layer
 > Ghostscript AWS Lambda layer
 
-[sina-masnadi/lambda-ghostscript](https://github.com/sina-masnadi/lambda-ghostscript) published as a Lambda layer
-
 ## Getting Started
 
 Click on Layers and choose "Add a layer", and "Provide a layer version
@@ -35,8 +33,8 @@ Current version of Ghostscript is `9.20`
 
 ## Update
 
-1. Clone https://github.com/sina-masnadi/lambda-ghostscript repository
-2. Create zip archive of Ghostscript binaries with the filename `ghostscript.zip`
+1. Go to https://www.ghostscript.com/download/gsdnld.html, download Ghostscript sources & compile it with `./configure && make` command.
+2. Create zip archive of Ghostscript binaries (`bin` folder only) with the filename `ghostscript.zip`
 3. Put zip archive into this repo
 3. Put proper version inside of `publish.sh`
 4. Commit & Create Pull Request
