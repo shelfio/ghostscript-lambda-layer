@@ -33,11 +33,11 @@ Current version of Ghostscript is `9.20`
 
 ## Update
 
-1. Go to https://www.ghostscript.com/download/gsdnld.html, download Ghostscript sources & compile it with `./configure && make` command.
-2. Create zip archive of Ghostscript binaries (`bin` folder only) with the filename `ghostscript.zip`
-3. Put zip archive into this repo
-3. Put proper version inside of `publish.sh`
-4. Commit & Create Pull Request
+1. Change version number & git tag in the `Dockerfile`
+2. Run `./build.sh` script which will produce `ghostscript.zip` file
+3. Change version number in the `publish.sh`
+4. Commit & Create a Pull Request
+5. After merging, a new layer version will be published by the CI automatically
 
 ## License
 
