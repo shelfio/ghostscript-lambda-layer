@@ -31,6 +31,10 @@ Current version of Ghostscript is `9.20`
 * us-west-1
 * us-west-2
 
+## Where can I find Ghostscript binary inside of Lambda when I attached the layer?
+
+You can find it at `/opt/bin/gs` (`/opt` is where Lambda unpacks layers).
+
 ## Update
 
 1. Change version number & git tag in the `Dockerfile`
