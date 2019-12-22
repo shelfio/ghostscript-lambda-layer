@@ -1,5 +1,4 @@
 # Ghostscript for AWS Lambda as a Layer
-> Ghostscript AWS Lambda layer
 
 ## Getting Started
 
@@ -10,26 +9,28 @@ ARN" and enter the following ARN.
 arn:aws:lambda:us-east-1:764866452798:layer:ghostscript:1
 ```
 
-Current version of Ghostscript is `9.20`
+| Layer ARN                                                 | Ghostscript Version                                                      |
+| --------------------------------------------------------- | ------------------------------------------------------------------------ |
+| arn:aws:lambda:us-east-1:764866452798:layer:ghostscript:1 | [9.20](https://www.ghostscript.com/doc/current/History9.htm#Version9.20) |
 
 ## Available regions
 
-* ap-northeast-1
-* ap-northeast-2
-* ap-south-1
-* ap-southeast-1
-* ap-southeast-2
-* ca-central-1
-* eu-north-1
-* eu-central-1
-* eu-west-1
-* eu-west-2
-* eu-west-3
-* sa-east-1
-* us-east-1
-* us-east-2
-* us-west-1
-* us-west-2
+- ap-northeast-1
+- ap-northeast-2
+- ap-south-1
+- ap-southeast-1
+- ap-southeast-2
+- ca-central-1
+- eu-north-1
+- eu-central-1
+- eu-west-1
+- eu-west-2
+- eu-west-3
+- sa-east-1
+- us-east-1
+- us-east-2
+- us-west-1
+- us-west-2
 
 ## Where can I find the Ghostscript binary inside of Lambda after I attach the layer?
 
