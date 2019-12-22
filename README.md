@@ -1,4 +1,4 @@
-# ghostscript-lambda-layer
+# Ghostscript for AWS Lambda as a Layer
 > Ghostscript AWS Lambda layer
 
 ## Getting Started
@@ -31,9 +31,11 @@ Current version of Ghostscript is `9.20`
 * us-west-1
 * us-west-2
 
-## Where can I find Ghostscript binary inside of Lambda when I attached the layer?
+## Where can I find the Ghostscript binary inside of Lambda after I attach the layer?
 
 You can find it at `/opt/bin/gs` (`/opt` is where Lambda unpacks layers).
+
+You can run `/opt/bin/gs --version` to make sure Ghostscript is up and running.
 
 ## Update
 
