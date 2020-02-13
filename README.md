@@ -9,16 +9,16 @@ ARN" and enter the following ARN.
 arn:aws:lambda:us-east-1:764866452798:layer:ghostscript:6
 ```
 
-## Version ARNs
-
-### Ghostscript v9.50
-
 Works with the following [AWS Lambda runtimes](https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html) which run on Amazon Linux 2:
 
 - nodejs12.x
 - nodejs10.x
 - python3.8
 - java11
+
+## Version ARNs
+
+### Ghostscript v9.50
 
 | AWS Region     | Layer ARN (brotli)                                               |
 | -------------- | ---------------------------------------------------------------- |
@@ -40,13 +40,6 @@ Works with the following [AWS Lambda runtimes](https://docs.aws.amazon.com/lambd
 | ap-southeast-2 | `arn:aws:lambda:ap-southeast-2:764866452798:layer:ghostscript:6` |
 
 ### Ghostscript v9.20
-
-Works with the following [AWS Lambda runtimes](https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html) which run on Amazon Linux 2:
-
-- nodejs12.x
-- nodejs10.x
-- python3.8
-- java11
 
 | AWS Region     | Layer ARN (brotli)                                               |
 | -------------- | ---------------------------------------------------------------- |
