@@ -13,15 +13,36 @@ arn:aws:lambda:us-east-1:764866452798:layer:ghostscript:1
 | --------------------------------------------------------- | ------------------------------------------------------------------------ |
 | arn:aws:lambda:us-east-1:764866452798:layer:ghostscript:1 | [9.20](https://www.ghostscript.com/doc/current/History9.htm#Version9.20) |
 
-## Available regions
+## Version ARNs
 
-| AP             | EU           | US        | Other        |
-| -------------- | ------------ | --------- | ------------ |
-| ap-northeast-1 | eu-north-1   | us-east-1 | ca-central-1 |
-| ap-northeast-2 | eu-central-1 | us-east-2 | sa-east-1    |
-| ap-south-1     | eu-west-1    | us-west-1 |              |
-| ap-southeast-1 | eu-west-2    | us-west-2 |              |
-| ap-southeast-2 | eu-west-3    |           |              |
+### Ghostscript v9.20
+
+Works with the following [AWS Lambda runtimes](https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html) which run on Amazon Linux 2:
+
+- nodejs12.x
+- nodejs10.x
+- python3.8
+- java11
+
+| AWS Region     | Layer ARN (brotli)                                               |
+| -------------- | ---------------------------------------------------------------- |
+| us-east-1      | `arn:aws:lambda:us-east-1:764866452798:layer:ghostscript:1`      |
+| us-east-2      | `arn:aws:lambda:us-east-2:764866452798:layer:ghostscript:1`      |
+| us-west-1      | `arn:aws:lambda:us-west-1:764866452798:layer:ghostscript:1`      |
+| us-west-2      | `arn:aws:lambda:us-west-2:764866452798:layer:ghostscript:1`      |
+| ca-central-1   | `arn:aws:lambda:ca-central-1:764866452798:layer:ghostscript:1`   |
+| sa-east-1      | `arn:aws:lambda:sa-east-1:764866452798:layer:ghostscript:1`      |
+| eu-north-1     | `arn:aws:lambda:eu-north-1:764866452798:layer:ghostscript:1`     |
+| eu-central-1   | `arn:aws:lambda:eu-central-1:764866452798:layer:ghostscript:1`   |
+| eu-west-1      | `arn:aws:lambda:eu-west-1:764866452798:layer:ghostscript:1`      |
+| eu-west-2      | `arn:aws:lambda:eu-west-2:764866452798:layer:ghostscript:1`      |
+| eu-west-3      | `arn:aws:lambda:eu-west-3:764866452798:layer:ghostscript:1`      |
+| ap-northeast-1 | `arn:aws:lambda:ap-northeast-1:764866452798:layer:ghostscript:1` |
+| ap-northeast-2 | `arn:aws:lambda:ap-northeast-2:764866452798:layer:ghostscript:1` |
+| ap-northeast-2 | `arn:aws:lambda:ap-northeast-2:764866452798:layer:ghostscript:1` |
+| ap-south-1     | `arn:aws:lambda:ap-south-1:764866452798:layer:ghostscript:1`     |
+| ap-southeast-1 | `arn:aws:lambda:ap-southeast-1:764866452798:layer:ghostscript:1` |
+| ap-southeast-2 | `arn:aws:lambda:ap-southeast-2:764866452798:layer:ghostscript:1` |
 
 ## Where can I find the Ghostscript binary inside of Lambda after I attach the layer?
 
