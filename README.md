@@ -6,12 +6,8 @@ Click on Layers and choose "Add a layer", and "Provide a layer version
 ARN" and enter the following ARN.
 
 ```
-arn:aws:lambda:us-east-1:764866452798:layer:ghostscript:1
+arn:aws:lambda:us-east-1:764866452798:layer:ghostscript:6
 ```
-
-| Layer ARN                                                 | Ghostscript Version                                                      |
-| --------------------------------------------------------- | ------------------------------------------------------------------------ |
-| arn:aws:lambda:us-east-1:764866452798:layer:ghostscript:1 | [9.20](https://www.ghostscript.com/doc/current/History9.htm#Version9.20) |
 
 ## Version ARNs
 
