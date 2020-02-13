@@ -15,6 +15,34 @@ arn:aws:lambda:us-east-1:764866452798:layer:ghostscript:1
 
 ## Version ARNs
 
+### Ghostscript v9.50
+
+Works with the following [AWS Lambda runtimes](https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html) which run on Amazon Linux 2:
+
+- nodejs12.x
+- nodejs10.x
+- python3.8
+- java11
+
+| AWS Region     | Layer ARN (brotli)                                               |
+| -------------- | ---------------------------------------------------------------- |
+| us-east-1      | `arn:aws:lambda:us-east-1:764866452798:layer:ghostscript:6`      |
+| us-east-2      | `arn:aws:lambda:us-east-2:764866452798:layer:ghostscript:6`      |
+| us-west-1      | `arn:aws:lambda:us-west-1:764866452798:layer:ghostscript:6`      |
+| us-west-2      | `arn:aws:lambda:us-west-2:764866452798:layer:ghostscript:6`      |
+| ca-central-1   | `arn:aws:lambda:ca-central-1:764866452798:layer:ghostscript:6`   |
+| sa-east-1      | `arn:aws:lambda:sa-east-1:764866452798:layer:ghostscript:6`      |
+| eu-north-1     | `arn:aws:lambda:eu-north-1:764866452798:layer:ghostscript:6`     |
+| eu-central-1   | `arn:aws:lambda:eu-central-1:764866452798:layer:ghostscript:6`   |
+| eu-west-1      | `arn:aws:lambda:eu-west-1:764866452798:layer:ghostscript:6`      |
+| eu-west-2      | `arn:aws:lambda:eu-west-2:764866452798:layer:ghostscript:6`      |
+| eu-west-3      | `arn:aws:lambda:eu-west-3:764866452798:layer:ghostscript:7`      |
+| ap-northeast-1 | `arn:aws:lambda:ap-northeast-1:764866452798:layer:ghostscript:6` |
+| ap-northeast-2 | `arn:aws:lambda:ap-northeast-2:764866452798:layer:ghostscript:6` |
+| ap-south-1     | `arn:aws:lambda:ap-south-1:764866452798:layer:ghostscript:6`     |
+| ap-southeast-1 | `arn:aws:lambda:ap-southeast-1:764866452798:layer:ghostscript:6` |
+| ap-southeast-2 | `arn:aws:lambda:ap-southeast-2:764866452798:layer:ghostscript:6` |
+
 ### Ghostscript v9.20
 
 Works with the following [AWS Lambda runtimes](https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html) which run on Amazon Linux 2:
@@ -38,7 +66,6 @@ Works with the following [AWS Lambda runtimes](https://docs.aws.amazon.com/lambd
 | eu-west-2      | `arn:aws:lambda:eu-west-2:764866452798:layer:ghostscript:1`      |
 | eu-west-3      | `arn:aws:lambda:eu-west-3:764866452798:layer:ghostscript:1`      |
 | ap-northeast-1 | `arn:aws:lambda:ap-northeast-1:764866452798:layer:ghostscript:1` |
-| ap-northeast-2 | `arn:aws:lambda:ap-northeast-2:764866452798:layer:ghostscript:1` |
 | ap-northeast-2 | `arn:aws:lambda:ap-northeast-2:764866452798:layer:ghostscript:1` |
 | ap-south-1     | `arn:aws:lambda:ap-south-1:764866452798:layer:ghostscript:1`     |
 | ap-southeast-1 | `arn:aws:lambda:ap-southeast-1:764866452798:layer:ghostscript:1` |
