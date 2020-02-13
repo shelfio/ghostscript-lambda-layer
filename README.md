@@ -12,6 +12,7 @@ arn:aws:lambda:us-east-1:764866452798:layer:ghostscript:1
 | Layer ARN                                                 | Ghostscript Version                                                      |
 | --------------------------------------------------------- | ------------------------------------------------------------------------ |
 | arn:aws:lambda:us-east-1:764866452798:layer:ghostscript:1 | [9.20](https://www.ghostscript.com/doc/current/History9.htm#Version9.20) |
+| arn:aws:lambda:us-east-1:764866452798:layer:ghostscript:2 | [9.50](https://www.ghostscript.com/doc/current/History9.htm#Version9.50) |
 
 ## Available regions
 
