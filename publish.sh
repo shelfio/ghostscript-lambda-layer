@@ -5,7 +5,7 @@ LAYER_NAME='ghostscript'
 LAYER_VERSION=$(
   aws lambda publish-layer-version --region "$TARGET_REGION" \
     --layer-name $LAYER_NAME \
-    --zip-file fileb://ghostscript.zip \
+    --zip-file fileb:///home/circleci/project/ghostscript.zip \
     --description "Ghostscript v${GHOSTSCRIPT_VERSION}" \
     --query Version \
     --output text
