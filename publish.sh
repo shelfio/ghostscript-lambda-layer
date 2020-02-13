@@ -12,10 +12,11 @@ aws lambda add-layer-version-permission \
   --query Statement \
   --output text \
   --version-number "$(
-    aws lambda publish-layer-version --region "$TARGET_REGION" \
-      --layer-name $LAYER_NAME \
-      --zip-file fileb://ghostscript.zip \
-      --description "Ghostscript v${GHOSTSCRIPT_VERSION}" \
-      --query Version \
-      --output text
+    aws lambda publish-layer-version \
+      --region="$TARGET_REGION" \
+      --layer-name="$LAYER_NAME" \
+      --zip-file="fileb://ghostscript.zip" \
+      --description="Ghostscript v${GHOSTSCRIPT_VERSION}" \
+      --query="Version" \
+      --output="text"
   )"
