@@ -1,6 +1,6 @@
 FROM lambci/lambda-base-2:build
-ENV GS_TAG=gs950
-ENV GS_VERSION=9.50
+ENV GS_TAG=gs952
+ENV GS_VERSION=9.52
 
 RUN yum install -y wget
 
