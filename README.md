@@ -11,7 +11,7 @@ arn:aws:lambda:us-east-1:764866452798:layer:ghostscript:8
 
 Works with the following [AWS Lambda runtimes](https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html) which run on Amazon Linux 2:
 
-- nodejs12.x
+- nodejs14.x, nodejs12.x
 - nodejs10.x
 - python3.8
 - java11
