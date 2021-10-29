@@ -2,14 +2,14 @@
 
 ## Getting Started
 
-Click on Layers and choose "Add a layer", and "Provide a layer version
-ARN" and enter the following ARN.
+Click on Layers and choose "Add a layer", and "Provide a layer version ARN" and enter the following ARN.
 
 ```
-arn:aws:lambda:us-east-1:764866452798:layer:ghostscript:8
+arn:aws:lambda:us-east-1:764866452798:layer:ghostscript:9
 ```
 
-Works with the following [AWS Lambda runtimes](https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html) which run on Amazon Linux 2:
+Works with the following [AWS Lambda runtimes](https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html) which
+run on Amazon Linux 2:
 
 - nodejs14.x, nodejs12.x
 - nodejs10.x
@@ -18,9 +18,30 @@ Works with the following [AWS Lambda runtimes](https://docs.aws.amazon.com/lambd
 
 ## Version ARNs
 
+### Ghostscript v9.55.0
+
+| AWS Region     | Layer ARN                                                        |
+| -------------- | ---------------------------------------------------------------- |
+| us-east-1      | `arn:aws:lambda:us-east-1:764866452798:layer:ghostscript:9`      |
+| us-east-2      | `arn:aws:lambda:us-east-2:764866452798:layer:ghostscript:9`      |
+| us-west-1      | `arn:aws:lambda:us-west-1:764866452798:layer:ghostscript:9`      |
+| us-west-2      | `arn:aws:lambda:us-west-2:764866452798:layer:ghostscript:9`      |
+| ca-central-1   | `arn:aws:lambda:ca-central-1:764866452798:layer:ghostscript:9`   |
+| sa-east-1      | `arn:aws:lambda:sa-east-1:764866452798:layer:ghostscript:9`      |
+| eu-north-1     | `arn:aws:lambda:eu-north-1:764866452798:layer:ghostscript:9`     |
+| eu-central-1   | `arn:aws:lambda:eu-central-1:764866452798:layer:ghostscript:9`   |
+| eu-west-1      | `arn:aws:lambda:eu-west-1:764866452798:layer:ghostscript:9`      |
+| eu-west-2      | `arn:aws:lambda:eu-west-2:764866452798:layer:ghostscript:9`      |
+| eu-west-3      | `arn:aws:lambda:eu-west-3:764866452798:layer:ghostscript:10`     |
+| ap-northeast-1 | `arn:aws:lambda:ap-northeast-1:764866452798:layer:ghostscript:9` |
+| ap-northeast-2 | `arn:aws:lambda:ap-northeast-2:764866452798:layer:ghostscript:9` |
+| ap-south-1     | `arn:aws:lambda:ap-south-1:764866452798:layer:ghostscript:9`     |
+| ap-southeast-1 | `arn:aws:lambda:ap-southeast-1:764866452798:layer:ghostscript:9` |
+| ap-southeast-2 | `arn:aws:lambda:ap-southeast-2:764866452798:layer:ghostscript:9` |
+
 ### Ghostscript v9.52
 
-| AWS Region     | Layer ARN (brotli)                                               |
+| AWS Region     | Layer ARN                                                        |
 | -------------- | ---------------------------------------------------------------- |
 | us-east-1      | `arn:aws:lambda:us-east-1:764866452798:layer:ghostscript:8`      |
 | us-east-2      | `arn:aws:lambda:us-east-2:764866452798:layer:ghostscript:8`      |
@@ -41,7 +62,7 @@ Works with the following [AWS Lambda runtimes](https://docs.aws.amazon.com/lambd
 
 ### Ghostscript v9.50
 
-| AWS Region     | Layer ARN (brotli)                                               |
+| AWS Region     | Layer ARN                                                        |
 | -------------- | ---------------------------------------------------------------- |
 | us-east-1      | `arn:aws:lambda:us-east-1:764866452798:layer:ghostscript:6`      |
 | us-east-2      | `arn:aws:lambda:us-east-2:764866452798:layer:ghostscript:6`      |
@@ -62,7 +83,7 @@ Works with the following [AWS Lambda runtimes](https://docs.aws.amazon.com/lambd
 
 ### Ghostscript v9.20
 
-| AWS Region     | Layer ARN (brotli)                                               |
+| AWS Region     | Layer ARN                                                        |
 | -------------- | ---------------------------------------------------------------- |
 | us-east-1      | `arn:aws:lambda:us-east-1:764866452798:layer:ghostscript:1`      |
 | us-east-2      | `arn:aws:lambda:us-east-2:764866452798:layer:ghostscript:1`      |
