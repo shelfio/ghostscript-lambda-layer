@@ -11,14 +11,15 @@ arn:aws:lambda:us-east-1:764866452798:layer:ghostscript:9
 Works with the following [AWS Lambda runtimes](https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html) which
 run on Amazon Linux 2:
 
-- nodejs14.x, nodejs12.x
-- nodejs10.x
+- nodejs16.x, nodejs14.x, nodejs12.x, nodejs10.x
 - python3.8
 - java11
 
 ## Version ARNs
 
-### Ghostscript v9.55.0
+<details>
+<summary>Ghostscript v9.55.0
+</summary>
 
 | AWS Region     | Layer ARN                                                        |
 | -------------- | ---------------------------------------------------------------- |
@@ -38,8 +39,12 @@ run on Amazon Linux 2:
 | ap-south-1     | `arn:aws:lambda:ap-south-1:764866452798:layer:ghostscript:9`     |
 | ap-southeast-1 | `arn:aws:lambda:ap-southeast-1:764866452798:layer:ghostscript:9` |
 | ap-southeast-2 | `arn:aws:lambda:ap-southeast-2:764866452798:layer:ghostscript:9` |
+</details>
 
-### Ghostscript v9.52
+
+<details>
+<summary>Ghostscript v9.52
+</summary>
 
 | AWS Region     | Layer ARN                                                        |
 | -------------- | ---------------------------------------------------------------- |
@@ -59,8 +64,12 @@ run on Amazon Linux 2:
 | ap-south-1     | `arn:aws:lambda:ap-south-1:764866452798:layer:ghostscript:8`     |
 | ap-southeast-1 | `arn:aws:lambda:ap-southeast-1:764866452798:layer:ghostscript:8` |
 | ap-southeast-2 | `arn:aws:lambda:ap-southeast-2:764866452798:layer:ghostscript:8` |
+</details>
 
-### Ghostscript v9.50
+<details>
+<summary>
+Ghostscript v9.50
+</summary>
 
 | AWS Region     | Layer ARN                                                        |
 | -------------- | ---------------------------------------------------------------- |
@@ -80,8 +89,12 @@ run on Amazon Linux 2:
 | ap-south-1     | `arn:aws:lambda:ap-south-1:764866452798:layer:ghostscript:6`     |
 | ap-southeast-1 | `arn:aws:lambda:ap-southeast-1:764866452798:layer:ghostscript:6` |
 | ap-southeast-2 | `arn:aws:lambda:ap-southeast-2:764866452798:layer:ghostscript:6` |
+</details>
 
-### Ghostscript v9.20
+<details>
+<summary>
+Ghostscript v9.20
+</summary>
 
 | AWS Region     | Layer ARN                                                        |
 | -------------- | ---------------------------------------------------------------- |
@@ -101,6 +114,7 @@ run on Amazon Linux 2:
 | ap-south-1     | `arn:aws:lambda:ap-south-1:764866452798:layer:ghostscript:1`     |
 | ap-southeast-1 | `arn:aws:lambda:ap-southeast-1:764866452798:layer:ghostscript:1` |
 | ap-southeast-2 | `arn:aws:lambda:ap-southeast-2:764866452798:layer:ghostscript:1` |
+</details>
 
 ## Where can I find the Ghostscript binary inside of Lambda after I attach the layer?
 
