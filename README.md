@@ -18,6 +18,31 @@ run on Amazon Linux 2:
 ## Version ARNs
 
 <details>
+<summary>Ghostscript v9.56.1
+</summary>
+
+| AWS Region     | Layer ARN                                                         |
+| -------------- |-------------------------------------------------------------------|
+| us-east-1      | `arn:aws:lambda:us-east-1:764866452798:layer:ghostscript:12`      |
+| us-east-2      | `arn:aws:lambda:us-east-2:764866452798:layer:ghostscript:12`      |
+| us-west-1      | `arn:aws:lambda:us-west-1:764866452798:layer:ghostscript:12`      |
+| us-west-2      | `arn:aws:lambda:us-west-2:764866452798:layer:ghostscript:12`      |
+| ca-central-1   | `arn:aws:lambda:ca-central-1:764866452798:layer:ghostscript:12`   |
+| sa-east-1      | `arn:aws:lambda:sa-east-1:764866452798:layer:ghostscript:12`      |
+| eu-north-1     | `arn:aws:lambda:eu-north-1:764866452798:layer:ghostscript:12`     |
+| eu-central-1   | `arn:aws:lambda:eu-central-1:764866452798:layer:ghostscript:12`   |
+| eu-west-1      | `arn:aws:lambda:eu-west-1:764866452798:layer:ghostscript:12`      |
+| eu-west-2      | `arn:aws:lambda:eu-west-2:764866452798:layer:ghostscript:12`      |
+| eu-west-3      | `arn:aws:lambda:eu-west-3:764866452798:layer:ghostscript:10`      |
+| ap-northeast-1 | `arn:aws:lambda:ap-northeast-1:764866452798:layer:ghostscript:12` |
+| ap-northeast-2 | `arn:aws:lambda:ap-northeast-2:764866452798:layer:ghostscript:12` |
+| ap-south-1     | `arn:aws:lambda:ap-south-1:764866452798:layer:ghostscript:12`     |
+| ap-southeast-1 | `arn:aws:lambda:ap-southeast-1:764866452798:layer:ghostscript:12` |
+| ap-southeast-2 | `arn:aws:lambda:ap-southeast-2:764866452798:layer:ghostscript:12` |
+</details>
+
+
+<details>
 <summary>Ghostscript v9.55.0
 </summary>
 
