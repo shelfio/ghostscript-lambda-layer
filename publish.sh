@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-GHOSTSCRIPT_VERSION=9.56.1
+GHOSTSCRIPT_VERSION=10.0.0
 LAYER_NAME='ghostscript'
 LAYER_VERSION=$(
   aws lambda publish-layer-version --region "$TARGET_REGION" \
