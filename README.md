@@ -5,7 +5,7 @@
 Click on Layers and choose "Add a layer", and "Provide a layer version ARN" and enter the following ARN.
 
 ```
-arn:aws:lambda:us-east-1:764866452798:layer:ghostscript:9
+arn:aws:lambda:us-east-1:764866452798:layer:ghostscript:13
 ```
 
 Works with the following [AWS Lambda runtimes](https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html) which
@@ -16,6 +16,30 @@ run on Amazon Linux 2:
 - java11
 
 ## Version ARNs
+
+<details>
+<summary>Ghostscript v10.0.0
+</summary>
+
+| AWS Region     | Layer ARN                                                         |
+| -------------- |-------------------------------------------------------------------|
+| us-east-1      | `arn:aws:lambda:us-east-1:764866452798:layer:ghostscript:13`      |
+| us-east-2      | `arn:aws:lambda:us-east-2:764866452798:layer:ghostscript:13`      |
+| us-west-1      | `arn:aws:lambda:us-west-1:764866452798:layer:ghostscript:13`      |
+| us-west-2      | `arn:aws:lambda:us-west-2:764866452798:layer:ghostscript:13`      |
+| ca-central-1   | `arn:aws:lambda:ca-central-1:764866452798:layer:ghostscript:13`   |
+| sa-east-1      | `arn:aws:lambda:sa-east-1:764866452798:layer:ghostscript:13`      |
+| eu-north-1     | `arn:aws:lambda:eu-north-1:764866452798:layer:ghostscript:13`     |
+| eu-central-1   | `arn:aws:lambda:eu-central-1:764866452798:layer:ghostscript:13`   |
+| eu-west-1      | `arn:aws:lambda:eu-west-1:764866452798:layer:ghostscript:13`      |
+| eu-west-2      | `arn:aws:lambda:eu-west-2:764866452798:layer:ghostscript:13`      |
+| eu-west-3      | `arn:aws:lambda:eu-west-3:764866452798:layer:ghostscript:14`      |
+| ap-northeast-1 | `arn:aws:lambda:ap-northeast-1:764866452798:layer:ghostscript:13` |
+| ap-northeast-2 | `arn:aws:lambda:ap-northeast-2:764866452798:layer:ghostscript:13` |
+| ap-south-1     | `arn:aws:lambda:ap-south-1:764866452798:layer:ghostscript:13`     |
+| ap-southeast-1 | `arn:aws:lambda:ap-southeast-1:764866452798:layer:ghostscript:13` |
+| ap-southeast-2 | `arn:aws:lambda:ap-southeast-2:764866452798:layer:ghostscript:13` |
+</details>
 
 <details>
 <summary>Ghostscript v9.56.1
