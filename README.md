@@ -17,7 +17,7 @@ run on Amazon Linux 2:
 
 ## Version Numbers
 
-| Ghostscript | <VERSION> |
+| Ghostscript | `<VERSION>`|
 | ----------- |-----------|
 | v10.0.0     | 13        |
 | v9.56.1     | 12        |
