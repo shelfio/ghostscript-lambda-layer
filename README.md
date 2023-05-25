@@ -17,14 +17,14 @@ run on Amazon Linux 2:
 
 ## Version Numbers
 
-| Ghostscript | <VERSION>              |
-| ----------- |------------------------|
-| v10.0.0     | 13 (14 for eu-west-3)  |
-| v9.56.1     | 12 (13 for eu-west-3)  |
-| v9.55.0     | 9  (10 for eu-west-3)  |
-| v9.52.0     | 8  (9 for eu-west-3)   |
-| v9.50.0     | 6  (7 for eu-west-3)   |
-| v9.20.0     | 1                      |
+| Ghostscript | VERSION  | eu-west-3 |
+| ----------- |----------|-----------|
+| v10.0.0     | 13       | 14        |
+| v9.56.1     | 12       | 13        |
+| v9.55.0     | 9        | 10        |
+| v9.52.0     | 8        | 9         |
+| v9.50.0     | 6        | 7         |
+| v9.20.0     | 1        | 1         |
 
 ## Where can I find the Ghostscript binary inside of Lambda after I attach the layer?
 
