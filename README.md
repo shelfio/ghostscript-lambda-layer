@@ -28,7 +28,7 @@ run on Amazon Linux 2:
 
 | Ghostscript | x86_64 VERSION | ARM64 VERSION | eu-west-3 x86_64 | eu-west-3 ARM64 |
 |-------------|----------------|---------------|------------------|-----------------|
-| v10.06.0    | TBD            | TBD           | TBD              | TBD             |
+| v10.06.0    | 18             | 1             | 19               | 1               |
 | v10.04.0    | 17             | -             | 18               | -               |
 | v10.02.0    | 15             | -             | 16               | -               |
 | v10.0.0     | 13             | -             | 14               | -               |
@@ -44,37 +44,13 @@ You can find it at `/opt/bin/gs` (`/opt` is where Lambda unpacks layers).
 
 You can run `/opt/bin/gs --version` to make sure Ghostscript is up and running.
 
-## Building Locally
-
-### Requirements
-- Docker with multi-platform support (Docker Desktop includes buildx by default)
-- For ARM64 builds: Docker buildx must be enabled
-
-### Build Process
-Run the build script to create both architecture variants:
-```bash
-./build.sh
-```
-
-This will produce:
-- `ghostscript-x86_64.zip` - x86_64 architecture
-- `ghostscript-arm64.zip` - ARM64 architecture
-
-### Publishing Locally
-To publish layers manually (requires AWS credentials and proper permissions):
-```bash
-export TARGET_REGION="us-east-1"
-export BASE_DIR="$(pwd)"  # Optional: defaults to current directory
-./publish.sh
-```
-
-## Updating to a New Ghostscript Version
+## Update
 
 1. Change version numbers in the `version.sh` file (GHOSTSCRIPT_VERSION and GS_TAG)
-2. Test locally by running `./build.sh` to produce both zip files
-3. Verify the builds: `unzip -l ghostscript-x86_64.zip` and `unzip -l ghostscript-arm64.zip`
-4. Publish the new layers using `./publish.sh` (set TARGET_REGION and BASE_DIR as needed)
-5. Update the version table in this README with the new layer version numbers
+2. Run `./build.sh` script which will produce `ghostscript-x86_64.zip` and `ghostscript-arm64.zip` files in the root of the project
+3. Update the version table in this README with the new layer version numbers
+4. Commit & Create a Pull Request
+5. After merging, a new layer version will be published by the CI automatically
 
 ## License
 

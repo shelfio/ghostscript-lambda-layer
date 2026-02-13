@@ -11,9 +11,10 @@ echo "Note: ARM64 builds require Docker with multi-platform  support (buildx)"
 echo ""
 echo "Building x86_64 layer..."
 docker build \
-  --build-arg BASE_IMAGE=public.ecr.aws/lambda/provided:al2 \
+  --build-arg BASE_IMAGE=amazonlinux:2 \
   --build-arg GS_VERSION=${GHOSTSCRIPT_VERSION} \
   --build-arg GS_TAG=${GS_TAG} \
+  --platform linux/x86_64 \
   -t gs-lambda-layer-x86_64 .
 docker run --rm gs-lambda-layer-x86_64 cat /tmp/gs.zip > ./ghostscript-x86_64.zip
 echo "✓ Created ghostscript-x86_64.zip"
@@ -22,7 +23,7 @@ echo "✓ Created ghostscript-x86_64.zip"
 echo ""
 echo "Building ARM64 layer..."
 docker build \
-  --build-arg BASE_IMAGE=public.ecr.aws/lambda/provided:al2-arm64 \
+  --build-arg BASE_IMAGE=amazonlinux:2 \
   --build-arg GS_VERSION=${GHOSTSCRIPT_VERSION} \
   --build-arg GS_TAG=${GS_TAG} \
   --platform linux/arm64 \
