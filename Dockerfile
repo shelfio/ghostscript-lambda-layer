@@ -1,12 +1,16 @@
-FROM lambci/lambda-base-2:build
-ENV GS_TAG=gs10040
-ENV GS_VERSION=10.04.0
+ARG BASE_IMAGE
 
-RUN yum install -y wget
+FROM ${BASE_IMAGE}
 
-RUN mkdir /usr/local/src/ghostscript && \
+ARG GS_VERSION
+ARG GS_TAG
+
+RUN yum install -y wget tar xz zip gcc make
+
+RUN echo "Building Ghostscript version: $GS_VERSION (tag: $GS_TAG)" && \
+  mkdir /usr/local/src/ghostscript && \
   cd /usr/local/src/ghostscript && \
-  wget -qO - https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/$GS_TAG/ghostscript-$GS_VERSION.tar.gz | tar -zxf - && \
+  wget -qO - https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/$GS_TAG/ghostscript-$GS_VERSION.tar.xz | tar -Jxf - && \
   cd ghostscript-$GS_VERSION && \
   ./configure --without-luratech && \
   make && make install
